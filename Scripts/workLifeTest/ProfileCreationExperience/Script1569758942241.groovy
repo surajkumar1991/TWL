@@ -55,7 +55,6 @@ WebUI.click(findTestObject('Object Repository/Page_Edit Profile/span_Transparenc
 
 WebUI.click(findTestObject('Object Repository/Page_Edit Profile/button_Save'))
 
-//String Object Repository/Page_Edit Profile/h1_abcd = '//h1[contains(text(),'+DesignationName+')]'
 WebUI.verifyElementText(findTestObject('Page_Edit Profile/h1_abcd', [('text') : DesignationName]), DesignationName)
 
 WebUI.closeBrowser()
