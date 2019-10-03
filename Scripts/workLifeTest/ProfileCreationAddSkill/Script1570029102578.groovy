@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 String skill = 'SkillInput' + System.currentTimeMillis()
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.AppUrl)
 
-WebUI.navigateToUrl('https://qa.thework.life/')
+WebUI.navigateToUrl(GlobalVariable.AppUrl)
 
 WebUI.setText(findTestObject('Object Repository/SkillPageObject/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'worklifetest10001@gmail.com')
