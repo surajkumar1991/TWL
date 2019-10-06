@@ -4,7 +4,17 @@
    <name>div_Vijay Test</name>
    <tag></tag>
    <elementGuidId>f8f4759d-2ac7-42dc-8c14-3d3e6f96baef</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id=&quot;btnSearch&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Vijay Test' or . = 'Vijay Test')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

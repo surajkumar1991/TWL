@@ -18,9 +18,6 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qa.thework.life/')
 
-WebUI.setText(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
-    '')
-
 WebUI.setText(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/input_Please enter username or email_username'), 
     'vijayvstest01@gmail.com')
 
@@ -31,13 +28,21 @@ WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_
 
 WebUI.setText(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_Home/input_View all_searchText'), 'suraj')
 
+WebUI.click(findTestObject('Search user/Search user button'))
+
 WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_Home/span_Suraj1569758600295makhija'))
 
 WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_View Profile/span_Agree'))
 
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_View Profile/span_Agree'))
 
+WebUI.waitForElementClickable(findTestObject('Thumbing-Upvote and Downvote/Page_View Profile/span_Disagree'), 3)
+
 WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_View Profile/span_Disagree'))
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_View Profile/span_Disagree'))
 

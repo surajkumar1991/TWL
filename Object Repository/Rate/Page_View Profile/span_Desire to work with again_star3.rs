@@ -4,7 +4,17 @@
    <name>span_Desire to work with again_star3</name>
    <tag></tag>
    <elementGuidId>d8ad28b7-aec9-4bda-86fa-8118e1a7b40c</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=&quot;starCat_1&quot;]/span[@id='star3']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'star3']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -19,27 +19,36 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://qa.thework.life/')
 
 WebUI.setText(findTestObject('Object Repository/flag review/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
-    '')
-
-WebUI.setText(findTestObject('Object Repository/flag review/Page_theworklife - Find Great People To Work With/input_Please enter username or email_username'), 
-    'vijayvstest01@gmail.com')
-
-WebUI.setText(findTestObject('Object Repository/flag review/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'vijayvstest01@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/flag review/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
     'cvW8qx4B2o3F4VwP/kNsqA==')
 
-WebUI.click(findTestObject('Object Repository/flag review/Page_Home/a_Suraj1569758600295makhija'))
+WebUI.click(findTestObject('Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in'))
+
+WebUI.waitForElementClickable(findTestObject('flag review/Page_View Profile/span_Report'), 3)
 
 WebUI.click(findTestObject('Object Repository/flag review/Page_View Profile/span_Report'))
 
+WebUI.click(findTestObject('flag review/Page_View Profile/click btn-btn report'))
+
+WebUI.waitForElementPresent(findTestObject('flag review/Page_theworklife - Find Great People To Work With/Report New window'), 
+    3)
+
+WebUI.waitForElementClickable(findTestObject('flag review/Page_View Profile/label_Accusatory'), 3)
+
 WebUI.click(findTestObject('Object Repository/flag review/Page_View Profile/label_Accusatory'))
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/flag review/Page_View Profile/textarea_Detail your complaint_txtDetailReport'), 
     'i dont like it , i am testing flag reviews')
 
 WebUI.click(findTestObject('Object Repository/flag review/Page_View Profile/button_Submit'))
+
+WebUI.waitForElementClickable(findTestObject('flag review/Page_View Profile/a_OK'), 3)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/flag review/Page_View Profile/a_OK'))
 

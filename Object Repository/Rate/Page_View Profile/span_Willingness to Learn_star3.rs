@@ -4,7 +4,17 @@
    <name>span_Willingness to Learn_star3</name>
    <tag></tag>
    <elementGuidId>d9fa603f-704d-4c47-b6fc-64842d4955dc</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=&quot;starCat_5&quot;]/span[@id='star3']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'star3']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

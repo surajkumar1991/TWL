@@ -4,7 +4,17 @@
    <name>span_Suraj1569758600295makhija</name>
    <tag></tag>
    <elementGuidId>f169c2c3-feb6-4ae9-9b7d-04e40d44714c</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Suraj1569758600295makhija')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Suraj1569758600295makhija' or . = 'Suraj1569758600295makhija')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

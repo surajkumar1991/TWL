@@ -4,7 +4,17 @@
    <name>span_Encourages work life balance_star3</name>
    <tag></tag>
    <elementGuidId>261c1b6e-9a91-4b76-b710-43ee4f67772e</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=&quot;starCat_2&quot;]/span[@id='star3']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'star3']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

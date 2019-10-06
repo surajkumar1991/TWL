@@ -4,7 +4,17 @@
    <name>span_Create their profile anonymously</name>
    <tag></tag>
    <elementGuidId>0bc8a871-9e49-4af4-8eca-16790fefe668</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='OpenAddProfileModal']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'OpenAddProfileModal' and (text() = 'Create their profile anonymously!' or . = 'Create their profile anonymously!')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

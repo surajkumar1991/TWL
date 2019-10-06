@@ -4,7 +4,17 @@
    <name>span_Clarity in Communication_star3</name>
    <tag></tag>
    <elementGuidId>a1205643-4474-4794-a30e-26908fde38bc</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=&quot;starCat_7&quot;]/span[@id='star3']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'star3']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

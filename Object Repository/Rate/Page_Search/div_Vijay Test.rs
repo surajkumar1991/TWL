@@ -4,7 +4,17 @@
    <name>div_Vijay Test</name>
    <tag></tag>
    <elementGuidId>241ee53f-ac84-4029-a32c-288f47e327d7</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Vijay Test')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Vijay Test' or . = 'Vijay Test')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

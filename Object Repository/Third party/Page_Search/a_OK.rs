@@ -4,7 +4,17 @@
    <name>a_OK</name>
    <tag></tag>
    <elementGuidId>7159d029-453c-43cb-8145-11c0ec7cef2c</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='PopupworklifeUrlUserAdded' and text()='OK']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'PopupworklifeUrlUserAdded' and @href = 'https://qa.thework.life/2f144591cd644e3690494d94da2d4d64/' and (text() = 'OK' or . = 'OK')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

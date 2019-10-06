@@ -4,7 +4,21 @@
    <name>label_Accusatory</name>
    <tag></tag>
    <elementGuidId>16e2f25e-e70a-44cb-aa3b-b860e62dd767</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+                                 Accusatory
+                            ' or . = '
+                                 Accusatory
+                            ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ModalReport&quot;]/div/div/div[2]/div[1]/div[1]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

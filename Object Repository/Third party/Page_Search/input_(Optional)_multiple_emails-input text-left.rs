@@ -4,7 +4,17 @@
    <name>input_(Optional)_multiple_emails-input text-left</name>
    <tag></tag>
    <elementGuidId>d05bb03b-e4a1-45ce-956a-a9ccb18617bf</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@class='multiple_emails-input text-left']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

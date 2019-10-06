@@ -18,27 +18,24 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qa.thework.life/')
 
-WebUI.setText(findTestObject('Object Repository/Endorse skills/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
-    'worklifetest10001@gmail.com')
+WebUI.setText(findTestObject('Object Repository/moderate1/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
+    'twl.moderator2@thework.life')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Endorse skills/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
-    'XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U')
+WebUI.setEncryptedText(findTestObject('Object Repository/moderate1/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
+    '8PaKxJY1Q9KyHtQHchZ+/brhRmpikEMj')
 
-WebUI.click(findTestObject('Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/moderate1/Page_theworklife - Find Great People To Work With/button_Sign in'))
 
-WebUI.setText(findTestObject('Object Repository/Endorse skills/Page_Home/input_View all_searchText'), 'vijay')
+WebUI.click(findTestObject('Object Repository/moderate1/Page_Home/a_pending actions'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/moderate1/Page_Pending Actions/button_Moderate'))
 
-WebUI.click(findTestObject('Object Repository/Endorse skills/Page_Search/div_Vijay Test'))
+WebUI.click(findTestObject('Object Repository/moderate1/Page_Pending Actions/button_Keep It'))
 
-WebUI.click(findTestObject('Endorse skills/Page_Search/search vijay test'))
+WebUI.setText(findTestObject('Object Repository/moderate1/Page_Pending Actions/textarea_i donr fblkfllskhgkhsgkhgksg_txtRemark'), 
+    'kgfjajkfsgjkflcbjksgfjsbvklbsjgjsbjbsjkgbvsjkbvjksbvjkbkjbvjksbvjkbsjkbvjskbvksbvksbvkbj')
 
-WebUI.click(findTestObject('Object Repository/Endorse skills/Page_View Profile/span_Endorse Skills'))
-
-WebUI.click(findTestObject('Object Repository/Endorse skills/Page_View Profile/button_Endorse'))
-
-WebUI.click(findTestObject('Object Repository/Endorse skills/Page_View Profile/a_OK'))
+WebUI.click(findTestObject('Object Repository/moderate1/Page_Pending Actions/button_Keep It'))
 
 WebUI.closeBrowser()
 

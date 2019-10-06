@@ -4,7 +4,17 @@
    <name>a_OK</name>
    <tag></tag>
    <elementGuidId>905b97f5-afc3-4569-81f5-01e19e2eba28</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btnAlertSuccess' and (text() = 'OK' or . = 'OK')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='btnAlertSuccess']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

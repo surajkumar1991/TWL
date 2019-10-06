@@ -19,12 +19,6 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://qa.thework.life/')
 
 WebUI.setText(findTestObject('Object Repository/Third party/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
-    '')
-
-WebUI.setText(findTestObject('Object Repository/Third party/Page_theworklife - Find Great People To Work With/input_Please enter username or email_username'), 
-    'vijayvstest01@gmail.com')
-
-WebUI.setText(findTestObject('Object Repository/Third party/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'vijayvstest01@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Third party/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
@@ -34,24 +28,30 @@ WebUI.click(findTestObject('Object Repository/Third party/Page_theworklife - Fin
 
 WebUI.setText(findTestObject('Object Repository/Third party/Page_Home/input_View all_searchText'), 'user')
 
-WebUI.click(findTestObject('Object Repository/Third party/Page_Search/p_Not the one youre looking for Create their profile anonymously'))
+WebUI.click(findTestObject('Third party/Page_Search/Search user button'))
+
+WebUI.waitForElementVisible(findTestObject('Third party/Page_Search/span_Create their profile anonymously'), 3)
 
 WebUI.click(findTestObject('Object Repository/Third party/Page_Search/span_Create their profile anonymously'))
 
-WebUI.click(findTestObject('Object Repository/Third party/Page_Search/span_Create their profile anonymously'))
+WebUI.waitForElementVisible(findTestObject('Third party/Page_Search/div_(Optional)_multiple_emails-container'), 3)
 
 WebUI.click(findTestObject('Object Repository/Third party/Page_Search/div_(Optional)_multiple_emails-container'))
 
-WebUI.setText(findTestObject('Object Repository/Third party/Page_Search/input_Linkedin_txtLiLink'), 'appliedai')
+WebUI.setText(findTestObject('Object Repository/Third party/Page_Search/input_Linkedin_txtLiLink'), 'appliedai' + System.currentTimeMillis())
 
 WebUI.click(findTestObject('Object Repository/Third party/Page_Search/div_(Optional)_multiple_emails-container'))
 
 WebUI.setText(findTestObject('Object Repository/Third party/Page_Search/input_(Optional)_multiple_emails-input text-left'), 
     'testing@appliedaiconsulting.com')
 
-WebUI.setText(findTestObject('Object Repository/Third party/Page_Search/input_Name_txtFirstName'), 'user')
+WebUI.setText(findTestObject('Object Repository/Third party/Page_Search/input_Name_txtFirstName'), 'user' + System.currentTimeMillis())
 
 WebUI.click(findTestObject('Object Repository/Third party/Page_Search/button_Add'))
+
+WebUI.waitForElementClickable(findTestObject('Third party/Page_Search/a_OK'), 3)
+
+WebUI.waitForElementVisible(findTestObject('Third party/Page_Search/a_OK'), 3)
 
 WebUI.click(findTestObject('Object Repository/Third party/Page_Search/a_OK'))
 

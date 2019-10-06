@@ -4,7 +4,17 @@
    <name>span_Enthusiasm_star3</name>
    <tag></tag>
    <elementGuidId>be6a24ee-1231-4a4d-aaf7-33285814e64e</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=&quot;starCat_6&quot;]/span[@id='star3']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'star3']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
