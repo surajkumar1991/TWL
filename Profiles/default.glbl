@@ -44,4 +44,9 @@
       <initValue>null</initValue>
       <name>latest_response</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa.thework.life'</initValue>
+      <name>AppUrl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
