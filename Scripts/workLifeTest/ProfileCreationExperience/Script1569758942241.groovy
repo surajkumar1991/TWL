@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 String DesignationName = 'abcd' + System.currentTimeMillis()
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.AppUrl)
 
-WebUI.navigateToUrl('https://qa.thework.life/')
+WebUI.navigateToUrl(GlobalVariable.AppUrl)
 
 WebUI.setText(findTestObject('Page_theworklife/input_Forgot password_username'), 'worklifetest10001@gmail.com')
 

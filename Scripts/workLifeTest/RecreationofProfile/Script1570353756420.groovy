@@ -17,6 +17,37 @@ WebUI.openBrowser(GlobalVariable.AppUrl)
 
 WebUI.navigateToUrl(GlobalVariable.AppUrl)
 
+WebUI.setText(findTestObject('Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
+    'testing@appliedaiconsulting.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
+    'D7Y+m3IaFBbsNDk26VHqfg==')
+
+WebUI.click(findTestObject('Experience/Page_theworklife - Find Great People To Work With/button_Sign in'))
+
+WebUI.click(findTestObject('Object Repository/DeletionObject/Page_Home/i_Settings_fa fa-gear'))
+
+WebUI.click(findTestObject('Object Repository/DeletionObject/Page_Home/a_Settings'))
+
+WebUI.click(findTestObject('Object Repository/DeletionObject/Page_Settings/a_Account Basics'))
+
+WebUI.click(findTestObject('Object Repository/DeletionObject/Page_Settings/a_Delete Account'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/DeletionObject/Page_Settings/input_Enter your password to confirm_password'), 
+    'D7Y+m3IaFBbsNDk26VHqfg==')
+
+WebUI.click(findTestObject('Object Repository/DeletionObject/Page_Settings/a_Delete'))
+
+WebUI.waitForElementClickable(findTestObject('DeletionObject/Page_Settings/a_OK'), 0)
+
+WebUI.waitForElementVisible(findTestObject('DeletionObject/Page_Settings/a_OK'), 0)
+
+WebUI.click(findTestObject('Object Repository/DeletionObject/Page_Settings/a_OK'))
+
+WebUI.openBrowser(GlobalVariable.AppUrl)
+
+WebUI.navigateToUrl(GlobalVariable.AppUrl)
+
 WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_theworklife - Find Great People To Work With/a_Join Now'))
 
 WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_theworklife - Find Great People To Work With/div_ Register to theworklife'))
@@ -57,7 +88,7 @@ WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_Facebook Userna
 
 WebUI.waitForElementClickable(findTestObject('FacebookLogin/Page_Facebook Username/u_Click here_1'), 5)
 
-WebUI.waitForElementNotPresent(findTestObject('Experience/Page_Edit Profile/loader'), 5)
+WebUI.waitForElementNotPresent(findTestObject('Experience/Page_Edit Profile/loader'), 8)
 
 WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_Facebook Username/u_Click here_1'))
 
