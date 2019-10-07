@@ -51,9 +51,9 @@ WebUI.click(findTestObject('Object Repository/Third party/Page_Search/button_Add
 
 WebUI.waitForElementClickable(findTestObject('Third party/Page_Search/a_OK'), 3)
 
-WebUI.waitForElementVisible(findTestObject('Third party/Page_Search/a_OK'), 3)
+sleep(4000)
 
-WebUI.click(findTestObject('Object Repository/Third party/Page_Search/a_OK'))
+WebUI.click(findTestObject('Third party/Page_Search/a_OK'))
 
 WebUI.closeBrowser()
 

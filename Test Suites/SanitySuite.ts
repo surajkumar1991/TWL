@@ -11,10 +11,10 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>9d8a44e2-de09-443f-ab5e-26d6a1d35260</testSuiteGuid>
    <testCaseLink>
-      <guid>76637a0e-cc7b-4943-b4bb-9365258c0912</guid>
+      <guid>106ce83d-a1c5-4f47-a8de-9eab0b32f7f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/workLifeTest/ProfileDeletion</testCaseId>
+      <testCaseId>Test Cases/workLifeTest/FacebockCreation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b7634567-c3fc-4abc-a4b4-9979f300dee3</guid>
@@ -119,13 +119,13 @@
       <testCaseId>Test Cases/Third party profile</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5281fb0f-53ca-446f-86ad-37abf61734c6</guid>
+      <guid>75b7f1ba-a2cd-42e8-ab13-de7d78f337f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/workLifeTest/RecreationofProfile</testCaseId>
+      <testCaseId>Test Cases/workLifeTest/FacebockCreation</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>eda71452-eeee-4da7-ab54-a674b53f0988</guid>
+      <guid>5281fb0f-53ca-446f-86ad-37abf61734c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/workLifeTest/RecreationofProfile</testCaseId>

@@ -39,14 +39,6 @@ WebUI.click(findTestObject('Rate/Page_Home/click on user to rate'))
 
 WebUI.click(findTestObject('Rate/Page_Home/Click rate now'))
 
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/connect with user/Page_Search/select_Select relationshipManagerReporteeColleagueVendorClientFamilyFriends'), 
-    '1', true)
-
-not_run: WebUI.setText(findTestObject('Object Repository/connect with user/Page_Search/input_(mandatory)_company_name'), 
-    'bcjsbokfj')
-
-not_run: WebUI.click(findTestObject('Object Repository/connect with user/Page_Search/button_Next'))
-
 WebUI.waitForElementClickable(findTestObject('Rate/Page_View Profile/span_Desire to work with again_star3'), 3)
 
 sleep(5000)
@@ -80,7 +72,9 @@ WebUI.click(findTestObject('Object Repository/Rate/Page_View Profile/button_Subm
 
 WebUI.waitForElementClickable(findTestObject('Rate/Page_View Profile/a_OK'), 3)
 
-WebUI.click(findTestObject('Object Repository/Rate/Page_View Profile/a_OK'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Rate/Page_View Profile/a_OK'))
 
 WebUI.closeBrowser()
 
