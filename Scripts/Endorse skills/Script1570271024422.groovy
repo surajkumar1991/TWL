@@ -36,7 +36,11 @@ WebUI.click(findTestObject('Endorse skills/Page_Search/search vijay test'))
 
 WebUI.click(findTestObject('Object Repository/Endorse skills/Page_View Profile/span_Endorse Skills'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Endorse skills/Page_View Profile/button_Endorse'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Endorse skills/Page_View Profile/a_OK'))
 

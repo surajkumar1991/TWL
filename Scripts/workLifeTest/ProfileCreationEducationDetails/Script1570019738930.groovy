@@ -23,7 +23,7 @@ WebUI.setText(findTestObject('EducationDetails/Page_theworklife - Find Great Peo
     'worklifetest10001@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('EducationDetails/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
-    'D7Y+m3IaFBbsNDk26VHqfg==')
+    'XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U')
 
 WebUI.click(findTestObject('EducationDetails/Page_theworklife - Find Great People To Work With/button_Sign in'))
 
@@ -32,6 +32,8 @@ WebUI.click(findTestObject('EducationDetails/Page_Home/a_profile'))
 WebUI.click(findTestObject('EducationDetails/Page_Home/a_Edit Profile'))
 
 WebUI.click(findTestObject('Object Repository/EducationDetails/Page_Edit Profile/a_Education'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('EducationDetails/Page_Edit Profile/button_ Add Education'))
 
@@ -60,9 +62,12 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/EducationDetails/Pag
     '2002', true)
 
 WebUI.setText(findTestObject('Object Repository/EducationDetails/Page_Edit Profile/textarea_(Optional)_description'), 'Test Description')
+
 WebUI.click(findTestObject('EducationDetails/Page_Edit Profile/DegreForm'))
 
 WebUI.scrollToElement(findTestObject('EducationDetails/Page_Edit Profile/button_Save'), 0)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('EducationDetails/Page_Edit Profile/button_Save'))
 

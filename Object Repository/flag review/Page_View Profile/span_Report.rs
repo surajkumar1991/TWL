@@ -6,12 +6,12 @@
    <elementGuidId>dfcad799-2d75-402a-8f7c-8d54db5a7dd5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Suraj1569758600295makhija')])[2]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Report' or . = 'Report')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Suraj')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

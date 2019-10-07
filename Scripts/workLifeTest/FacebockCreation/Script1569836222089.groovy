@@ -41,7 +41,7 @@ WebUI.waitForElementClickable(findTestObject('FacebookLogin/Page_Sign Up/input_U
 
 WebUI.setText(findTestObject('FacebookLogin/Page_Sign Up/input_Username_username'), 'testing' + System.currentTimeMillis())
 
-WebUI.setEncryptedText(findTestObject('FacebookLogin/Page_Sign Up/input_Password_password'), 'D7Y+m3IaFBbsNDk26VHqfg==')
+WebUI.setEncryptedText(findTestObject('FacebookLogin/Page_Sign Up/input_Password_password'), 'YpWQ2DI2eLzqZleLDbTOWw==')
 
 WebUI.click(findTestObject('FacebookLogin/Page_Sign Up/i_Very Strong_cr-icon fa fa-check'))
 

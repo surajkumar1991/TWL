@@ -21,7 +21,7 @@ WebUI.navigateToUrl(GlobalVariable.AppUrl)
 
 WebUI.setText(findTestObject('Page_theworklife/input_Forgot password_username'), 'worklifetest10001@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_theworklife/input_Forgot password_password'), 'D7Y+m3IaFBbsNDk26VHqfg==')
+WebUI.setEncryptedText(findTestObject('Page_theworklife/input_Forgot password_password'), 'XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U')
 
 WebUI.click(findTestObject('Page_theworklife/button_Sign in'))
 

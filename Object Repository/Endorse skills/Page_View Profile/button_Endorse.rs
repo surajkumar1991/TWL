@@ -4,7 +4,17 @@
    <name>button_Endorse</name>
    <tag></tag>
    <elementGuidId>f37fefba-e918-4cdc-9bce-734356efbfe4</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btnEndorse' and (text() = 'Endorse' or . = 'Endorse')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnEndorse']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

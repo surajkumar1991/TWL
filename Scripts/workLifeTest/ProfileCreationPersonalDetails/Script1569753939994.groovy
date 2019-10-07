@@ -19,7 +19,7 @@ WebUI.navigateToUrl(GlobalVariable.AppUrl)
 
 WebUI.setText(findTestObject('Page_theworklife/input_Forgot password_username'), 'worklifetest10001@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_theworklife/input_Forgot password_password'), 'D7Y+m3IaFBbsNDk26VHqfg==')
+WebUI.setEncryptedText(findTestObject('Page_theworklife/input_Forgot password_password'), 'XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U')
 
 WebUI.click(findTestObject('Page_theworklife/button_Sign in'))
 
@@ -29,22 +29,15 @@ WebUI.click(findTestObject('Page_Home/a_Edit Profile'))
 
 WebUI.setText(findTestObject('Page_Edit Profile/input_Name_name'), ('Suraj' + System.currentTimeMillis()) + 'makhija')
 
-WebUI.setText(findTestObject('profileObject/Page_Edit Profile/textarea_wwwfacebookcommsurajmakhija'), 'www.facebook.com/surajMakhija')
+WebUI.click(findTestObject('profileObject/Page_Edit Profile/button_Save'))
 
-//WebUI.click(findTestObject('Object Repository/Page_Edit Profile/span'))
-WebUI.click(findTestObject('Object Repository/Page_Edit Profile/label_Male'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_Edit Profile/button_Save'))
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Edit Profile/a_OK'), 5)
+WebUI.waitForElementVisible(findTestObject('profileObject/Page_Edit Profile/a_OK'), 5)
 
 WebUI.click(findTestObject('Object Repository/Page_Edit Profile/a_OK'))
 
 WebUI.waitForElementVisible(findTestObject('Page_Home/a_profile'), 5)
-
-WebUI.navigateToUrl('https://qa.thework.life/Profile/EditProfile')
-
-WebUI.click(findTestObject('Object Repository/Page_Edit Profile/a_OK'))
 
 WebUI.click(findTestObject('Object Repository/Page_Edit Profile/a_profile'))
 

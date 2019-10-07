@@ -23,7 +23,7 @@ WebUI.setText(findTestObject('Object Repository/SkillPageObject/Page_theworklife
     'worklifetest10001@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/SkillPageObject/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
-    'D7Y+m3IaFBbsNDk26VHqfg==')
+    'XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U')
 
 WebUI.click(findTestObject('Object Repository/SkillPageObject/Page_theworklife - Find Great People To Work With/button_Sign in'))
 

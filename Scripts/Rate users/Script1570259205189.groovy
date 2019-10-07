@@ -72,6 +72,8 @@ WebUI.click(findTestObject('Object Repository/Rate/Page_View Profile/button_Subm
 
 WebUI.waitForElementClickable(findTestObject('Rate/Page_View Profile/a_OK'), 3)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Rate/Page_View Profile/a_OK'))
 
 WebUI.closeBrowser()

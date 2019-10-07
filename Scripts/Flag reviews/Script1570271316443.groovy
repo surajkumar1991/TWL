@@ -37,6 +37,8 @@ WebUI.waitForElementPresent(findTestObject('flag review/Page_theworklife - Find 
 
 WebUI.waitForElementClickable(findTestObject('flag review/Page_View Profile/label_Accusatory'), 3)
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/flag review/Page_View Profile/label_Accusatory'))
 
 WebUI.delay(3)

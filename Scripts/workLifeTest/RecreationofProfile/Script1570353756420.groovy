@@ -21,7 +21,7 @@ WebUI.setText(findTestObject('Object Repository/DeletionObject/Page_theworklife 
     'testing@appliedaiconsulting.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
-    'D7Y+m3IaFBbsNDk26VHqfg==')
+    'XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U')
 
 WebUI.click(findTestObject('Experience/Page_theworklife - Find Great People To Work With/button_Sign in'))
 
@@ -62,7 +62,7 @@ WebUI.clearText(findTestObject('FacebookLogin/Page_Facebook/input_Email address 
 
 WebUI.setText(findTestObject('FacebookLogin/Page_Facebook/input_Email address or phone number_email'), 'testing@appliedaiconsulting.com')
 
-WebUI.setEncryptedText(findTestObject('FacebookLogin/Page_Facebook/input_Password_pass'), 'YpWQ2DI2eLzqZleLDbTOWw==')
+WebUI.setEncryptedText(findTestObject('FacebookLogin/Page_Facebook/input_Password_pass'), 'XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U')
 
 WebUI.click(findTestObject('FacebookLogin/Page_Facebook/input_Password_login'))
 
