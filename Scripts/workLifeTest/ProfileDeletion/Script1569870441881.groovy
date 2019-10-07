@@ -18,10 +18,10 @@ WebUI.openBrowser(GlobalVariable.AppUrl)
 WebUI.navigateToUrl(GlobalVariable.AppUrl)
 
 WebUI.setText(findTestObject('Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
-    'testing@appliedaiconsulting.com')
+    'worklifetest10002@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
-    'YpWQ2DI2eLzqZleLDbTOWw==')
+    'XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U')
 
 WebUI.click(findTestObject('Experience/Page_theworklife - Find Great People To Work With/button_Sign in'))
 
@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Object Repository/DeletionObject/Page_Settings/a_Acc
 WebUI.click(findTestObject('Object Repository/DeletionObject/Page_Settings/a_Delete Account'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/DeletionObject/Page_Settings/input_Enter your password to confirm_password'), 
-    'YpWQ2DI2eLzqZleLDbTOWw==')
+    'XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U')
 
 WebUI.click(findTestObject('Object Repository/DeletionObject/Page_Settings/a_Delete'))
 

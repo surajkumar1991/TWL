@@ -29,9 +29,9 @@ WebUI.waitForElementClickable(findTestObject('FacebookLogin/Page_Facebook/input_
 
 WebUI.clearText(findTestObject('FacebookLogin/Page_Facebook/input_Email address or phone number_email'))
 
-WebUI.setText(findTestObject('FacebookLogin/Page_Facebook/input_Email address or phone number_email'), 'testing@appliedaiconsulting.com')
+WebUI.setText(findTestObject('FacebookLogin/Page_Facebook/input_Email address or phone number_email'), 'worklifetest10002@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('FacebookLogin/Page_Facebook/input_Password_pass'), 'YpWQ2DI2eLzqZleLDbTOWw==')
+WebUI.setEncryptedText(findTestObject('FacebookLogin/Page_Facebook/input_Password_pass'), 'XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U')
 
 WebUI.click(findTestObject('FacebookLogin/Page_Facebook/input_Password_login'))
 
@@ -41,7 +41,7 @@ WebUI.waitForElementClickable(findTestObject('FacebookLogin/Page_Sign Up/input_U
 
 WebUI.setText(findTestObject('FacebookLogin/Page_Sign Up/input_Username_username'), 'testing' + System.currentTimeMillis())
 
-WebUI.setEncryptedText(findTestObject('FacebookLogin/Page_Sign Up/input_Password_password'), 'YpWQ2DI2eLzqZleLDbTOWw==')
+WebUI.setEncryptedText(findTestObject('FacebookLogin/Page_Sign Up/input_Password_password'), 'XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U')
 
 WebUI.click(findTestObject('FacebookLogin/Page_Sign Up/i_Very Strong_cr-icon fa fa-check'))
 
@@ -51,7 +51,7 @@ WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_Facebook Userna
 
 WebUI.switchToWindowTitle('Facebook Username')
 
-WebUI.setText(findTestObject('FacebookLogin/Page_Facebook Username/input_Click here_fb_username'), 'https://www.facebook.com/applied.ai.96')
+WebUI.setText(findTestObject('FacebookLogin/Page_Facebook Username/input_Click here_fb_username'), 'https://www.facebook.com/jiten.makhija.125#_')
 
 WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_Facebook Username/button_Submit'))
 
