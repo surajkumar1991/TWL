@@ -40,7 +40,9 @@ WebUI.waitForElementClickable(findTestObject('Thumbing-Upvote and Downvote/Page_
 
 WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_View Profile/span_Agree'))
 
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementNotPresent(findTestObject('Experience/Page_Edit Profile/loader'), 2)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_View Profile/span_Agree'))
 
@@ -50,7 +52,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_View Profile/span_Disagree'))
 
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_View Profile/span_Disagree'))
 

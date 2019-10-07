@@ -4,7 +4,17 @@
    <name>button_Submit</name>
    <tag></tag>
    <elementGuidId>fec9929d-884f-4db1-8c1e-b421685064a7</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @id = 'btn_cntinue' and (text() = 'Submit' or . = 'Submit')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn_cntinue']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

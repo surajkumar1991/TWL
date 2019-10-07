@@ -4,7 +4,17 @@
    <name>u_Click here_1</name>
    <tag></tag>
    <elementGuidId>7b3c9742-76cb-4101-a7e5-af18b4a0383a</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'click_here' and (text() = 'Click here' or . = 'Click here')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@class=&quot;nextBtn&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -23,6 +23,8 @@ WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_theworklife - F
 
 WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_theworklife - Find Great People To Work With/button_Facebook'))
 
+WebUI.delay(2)
+
 WebUI.switchToWindowTitle('Facebook')
 
 WebUI.waitForElementClickable(findTestObject('FacebookLogin/Page_Facebook/input_Email address or phone number_email'), 5)

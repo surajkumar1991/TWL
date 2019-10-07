@@ -32,7 +32,7 @@ WebUI.click(findTestObject('Object Repository/Page_LinkedIn Login Sign in  Linke
 
 WebUI.click(findTestObject('Object Repository/Page_LinkedIn Login Sign in  LinkedIn/button_Sign in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign Up/input_Username_username'), 'testing5')
+WebUI.setText(findTestObject('Object Repository/Page_Sign Up/input_Username_username'), 'testingLink' + System.currentTimeMillis())
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign Up/input_Password_password'), 'YpWQ2DI2eLzqZleLDbTOWw==')
 
@@ -40,17 +40,23 @@ WebUI.click(findTestObject('Object Repository/Page_Sign Up/i_Strong_cr-icon fa f
 
 WebUI.click(findTestObject('Object Repository/Page_Sign Up/button_Continue'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page_LinkedIn Username/u_Click here'))
+WebUI.click(findTestObject('Object Repository/Page_LinkedIn Username/u_Click here'))
 
 WebUI.setText(findTestObject('Object Repository/Page_LinkedIn Username/input_Click here_li_user_link'), 'https://www.linkedin.com/in/applied-ai-ab4367194/')
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Page_LinkedIn Username/button_Submit'))
+
+WebUI.waitForElementPresent(findTestObject('Page_LinkedIn Username/u_Click here_1'), 2)
+
+WebUI.scrollToElement(findTestObject('Page_LinkedIn Username/u_Click here_1'), 2)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_LinkedIn Username/u_Click here_1'))
+WebUI.waitForElementNotPresent(findTestObject('Experience/Page_Edit Profile/loader'), 5)
 
-WebUI.switchToWindowTitle('LinkedIn Username')
+WebUI.click(findTestObject('Object Repository/Page_LinkedIn Username/u_Click here_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_LinkedIn Username/a_Finish'))
 
