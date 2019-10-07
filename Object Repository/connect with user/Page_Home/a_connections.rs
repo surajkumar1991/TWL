@@ -4,7 +4,17 @@
    <name>a_connections</name>
    <tag></tag>
    <elementGuidId>51c77e35-a741-4e63-9212-3432aa6b560c</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/Connection/Connections' and @id = 'menuConnections' and (text() = 'connections' or . = 'connections')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/header/div[2]/div/ul[1]/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

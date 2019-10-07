@@ -6,12 +6,12 @@
    <elementGuidId>f169c2c3-feb6-4ae9-9b7d-04e40d44714c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(),'Suraj1569758600295makhija')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Suraj1569758600295makhija' or . = 'Suraj1569758600295makhija')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;partialUserList&quot;]/div[1]/div[3]/div[1]/a/div[2]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
