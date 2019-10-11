@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/7r/gky81mns1m14gcrr_v96288r0000gp/T/Katalon/Test Cases/Login success/20191008_014944/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/7r/gky81mns1m14gcrr_v96288r0000gp/T/Katalon/Test Cases/workLifeTest/ProfileDeletionLinkedInUser/20191010_231614/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Login success', new TestCaseBinding('Test Cases/Login success',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/workLifeTest/ProfileDeletionLinkedInUser', new TestCaseBinding('Test Cases/workLifeTest/ProfileDeletionLinkedInUser',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

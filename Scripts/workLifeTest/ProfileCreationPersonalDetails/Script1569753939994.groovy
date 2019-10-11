@@ -31,7 +31,7 @@ WebUI.setText(findTestObject('Page_Edit Profile/input_Name_name'), ('Suraj' + Sy
 
 WebUI.click(findTestObject('profileObject/Page_Edit Profile/button_Save'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.waitForElementVisible(findTestObject('profileObject/Page_Edit Profile/a_OK'), 5)
 

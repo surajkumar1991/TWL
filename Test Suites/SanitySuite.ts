@@ -113,21 +113,15 @@
       <testCaseId>Test Cases/Login success</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>a1c30fa3-2111-45f2-97da-409069153edb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/workLifeTest/ProfileDeletionLinkedInUser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>9e535874-7851-42c6-a4fd-dbd872e6d6c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Third party profile</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>75b7f1ba-a2cd-42e8-ab13-de7d78f337f1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/workLifeTest/FacebockCreation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5281fb0f-53ca-446f-86ad-37abf61734c6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/workLifeTest/RecreationofProfile</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

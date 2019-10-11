@@ -20,6 +20,8 @@ WebUI.navigateToUrl('https://qa.thework.life/')
 
 WebUI.click(findTestObject('Object Repository/Page_theworklife - Find Great People To Work With/a_Join Now'))
 
+WebUI.waitForElementPresent(findTestObject('Page_theworklife - Find Great People To Work With/button_LinkedIn'), 5)
+
 WebUI.click(findTestObject('Object Repository/Page_theworklife - Find Great People To Work With/button_LinkedIn'))
 
 WebUI.setText(findTestObject('Object Repository/Page_LinkedIn Login Sign in  LinkedIn/input_Welcome Back_session_key'), 
@@ -31,6 +33,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_LinkedIn Login Sig
 WebUI.click(findTestObject('Object Repository/Page_LinkedIn Login Sign in  LinkedIn/span_Show'))
 
 WebUI.click(findTestObject('Object Repository/Page_LinkedIn Login Sign in  LinkedIn/button_Sign in'))
+
+WebUI.clearText(findTestObject('Page_Sign Up/input_Username_username'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Sign Up/input_Username_username'), 'testingLink' + System.currentTimeMillis())
 
@@ -52,13 +56,12 @@ WebUI.waitForElementPresent(findTestObject('Page_LinkedIn Username/u_Click here_
 
 WebUI.scrollToElement(findTestObject('Page_LinkedIn Username/u_Click here_1'), 2)
 
-WebUI.delay(5)
+sleep(7000)
 
 WebUI.waitForElementNotPresent(findTestObject('Experience/Page_Edit Profile/loader'), 5)
 
 WebUI.click(findTestObject('Object Repository/Page_LinkedIn Username/u_Click here_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_LinkedIn Username/a_Finish'))
-
 WebUI.closeBrowser()
 

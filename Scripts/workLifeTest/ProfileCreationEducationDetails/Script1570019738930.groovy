@@ -33,7 +33,9 @@ WebUI.click(findTestObject('EducationDetails/Page_Home/a_Edit Profile'))
 
 WebUI.click(findTestObject('Object Repository/EducationDetails/Page_Edit Profile/a_Education'))
 
-WebUI.delay(3)
+WebUI.delay(5)
+
+WebUI.waitForElementVisible(findTestObject('EducationDetails/Page_Edit Profile/button_ Add Education'), 3)
 
 WebUI.click(findTestObject('EducationDetails/Page_Edit Profile/button_ Add Education'))
 
